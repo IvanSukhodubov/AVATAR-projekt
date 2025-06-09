@@ -164,6 +164,8 @@ margin-bottom: 10px;
 .whatchnow{
     background-image: url(../img/backwhatchnow.webp);
      background-size: cover;
+     padding-top: 330px;
+     padding-bottom: 330px;
 }
 .whatchnow-button{
     color: var(--bordertext-color);
@@ -188,17 +190,9 @@ margin-right: auto;
 
 }
 .whatchnow-box{
-    padding-top: 330px;
-    padding-bottom: 330px;
+   
   
-    display: flex;
-}
-.navi{
-
-}
-.navi-box{
-
-}
+    display: flex;}
 .navi-blockquote{
     
         color: var(--bordertext-color);
@@ -238,7 +232,53 @@ margin-bottom: 10px;
     background-image: url(../img/learnback.webp);
     background-size: cover;
 }
-.leran-box{}
+.learn-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.learn-img{
+    width: 152px;
+height: 40px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.learn-title{
+color: var(--text-color);
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 32px;
+font-weight: 400;
+line-height: 1.25;
+
+}
+.learn-titles{
+    color: var(--text-color);
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+font-weight: 400;
+line-height: 1; /* 100% */
+}
+.learn-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 24px;
+    margin-top: 45px;
+   
+}
+.learn-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.70);
+
+}
 .nejtiri-blockquote{
          color: var(--bordertext-color);
          text-align: center;
@@ -270,4 +310,56 @@ margin-bottom: 10px;
     margin-left: 290px;
     margin-right: 520px;
     margin-bottom: 10px;
+}
+.footer{
+    background-image:linear-gradient(rgba(43, 74, 97, 0.87),rgba(43, 74, 97, 0.87)),url(../img/footerbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.footer-box{
+    display: flex; 
+}
+.footer-logo{
+    margin-left: 204px;
+    margin-top: 77px;
+    margin-right: 80px;
+    margin-bottom: 76px;
+ 
+ 
+}
+.footer-text1{
+    color: #FFF;
+
+text-align: justify;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    padding-top: 80px;
+    padding-bottom: 16px;
+}
+.footer-text2{
+    color: #FFF;
+
+text-align: justify;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    padding-bottom: 37px;
+}
+.footer-text3{
+    color: #FFF;
+
+text-align: justify;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    margin-bottom: 25px;
 }
