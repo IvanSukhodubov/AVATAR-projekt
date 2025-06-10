@@ -231,6 +231,7 @@ margin-bottom: 10px;
 .learn{
     background-image: url(../img/learnback.webp);
     background-size: cover;
+    padding: 58px 0 57px 0;
 }
 .learn-box{
     display: flex;
@@ -294,6 +295,11 @@ line-height: 1; /* 100% */
     line-height: normal;
         display: flex;
         justify-content: center;
+}
+.nejtiri,
+.treiler,
+.navi{
+    padding: 75px 0 10px 0;
 }
 .nejtiri-cite{
     color: var(--author-color);
